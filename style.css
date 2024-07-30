@@ -42,7 +42,7 @@ section {
 }
 
 #home {
-    background: url('images/Top Jewellery brands in India-min.jpeg') no-repeat center center;
+    background: url('Images/background image.jpg') no-repeat center center;
     background-size: cover;
     color: #fff;
     padding: 6em 2em;
@@ -61,6 +61,42 @@ section {
 section img {
     max-width: 100%;
     height: auto;
+}
+
+#products {
+    background-color: #f8f8f8;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-top: 2em;
+}
+
+.product-item {
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33% - 2em);
+    box-sizing: border-box;
+}
+
+.product-item img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.product-item h3 {
+    color: #b89d40;
+    margin: 0.5em 0;
+}
+
+.product-item p {
+    font-size: 1em;
+    color: #666;
 }
 
 footer {
