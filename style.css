@@ -42,9 +42,10 @@ section {
 }
 
 #home {
-    background: url('path/to/your/background-image.jpg') no-repeat center center;
+    background: url('images/Top Jewellery brands in India-min.jpeg') no-repeat center center;
     background-size: cover;
     color: #fff;
+    padding: 6em 2em;
 }
 
 #home h2 {
